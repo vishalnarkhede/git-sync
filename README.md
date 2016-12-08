@@ -36,7 +36,8 @@ There are two ways, you can use this script (I prefer 1st one):
     * You can refer to this blog for details: http://thediscoblog.com/blog/2014/03/29/custom-git-commands-in-3-steps/
 
 2. Create bash script file with following code and execute that as following (For Mac):
-    * Copy following code in `sync_all.sh` file in your repo directory (where we have .git).
+    * Copy following code in `git-sync.sh` file in your repo directory (where we have .git).
+    * Do `chmod 755 git-sync.sh`
     * Just run `./sync_all.sh <branch_suffix>` from command line. 
 
 ##  Don't just use it blindly. Things to keep in mind:
