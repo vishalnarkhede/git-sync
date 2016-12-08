@@ -8,7 +8,7 @@
 validate_input () {
     if [[ $1 == "--" ]] || [[ $1 == "" ]]
     then
-        echo "You haven't given any branch suffix. This will sync all your branches to master. Are you sure you want to continue [Yes]"
+        echo "You haven't given any branch suffix. This will sync all your branches to master. Are you sure you want to continue [yes]"
         read choice
         if [[ $choice != "yes" ]]
         then
