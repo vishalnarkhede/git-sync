@@ -37,3 +37,9 @@ There are two ways, you can use this script (I prefer 1st one):
     * Copy following code in `sync_all.sh` file in gulftalent codebase directory (where we have .git).
     * Just run `./sync_all.sh` from command line. All the Release-Module branches will be updated to origin.
 
+##  Don't just use it blindly. Things to keep in mind:
+
+1. It will delete branches with suffix as <branch_suffix> from local machine first. So if you have some changes in some branch, that are not on origin, either change the branch name or push that branch to origin.
+2. Before running the command or script, make sure you don't have any uncommited changes on current branch.
+
+#### P.S. Suggestions for improvement are always welcomed. Feel free to leave comments or file PR with changes.
