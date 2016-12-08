@@ -7,6 +7,8 @@ All you need to do is to run following command (after following the steps given 
 
 With this, all the branches which end with <branch_suffix> will be synced with origin/master branch.
 
+If there are any conflicts with some branch, those branches will be listed at the end of command.
+
 e.g., If you want to sync all the branches which end with "Release-Module", something like "Test-Release-Module",
 You will run `git sync Release-Module`
 
