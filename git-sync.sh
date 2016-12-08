@@ -115,8 +115,6 @@ sync_all_suffixed_branch_to_master () {
         fi
     done
 
-    remove_all_suffixed_modules_from_local $1
-
     echo
     echo
     echo ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
