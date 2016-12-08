@@ -1,6 +1,6 @@
 # git-sync
 ## What is this?
-This is just a simple script which enabled user to sync certain branches on origin to master.
+This is just a simple script which enables git user to sync multiple branches on origin with origin/master.
 All you need to do is to run following command (after following the steps given later in description):
 
 `git sync <branch_suffix>`
