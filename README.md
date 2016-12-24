@@ -5,7 +5,7 @@ All you need to do is to run following command (after following the steps given 
 
 `git sync <branch_suffix>`
 
-With this, all the branches which end with <branch_suffix> will be synced with origin/master branch.
+With this, all the branches which end with `<branch_suffix>` will be synced with origin/master branch.
 
 If there are any conflicts with some branch, those branches will be listed at the end of command.
 
@@ -19,9 +19,9 @@ This is neccessary usually after the releases, when different teams were working
 ## How does this work?
 Steps followed in this script are as follow:
 
-1. Remove all the branches with <branch_suffix> as suffix from local machine
+1. Remove all the branches with `<branch_suffix>` as suffix from local machine
 2. Fetch all the branches from origin.
-3. Checkout a fresh branch from the branch with <branch_suffice> as suffix from origin.
+3. Checkout a fresh branch from the branch with `<branch_suffice>` as suffix from origin.
 4. Merge origin/master into these branches
 5. Push the newly synced branches on local to origin
 
@@ -42,7 +42,7 @@ There are two ways, you can use this script (I prefer 1st one):
 
 ##  Don't just use it blindly. Things to keep in mind:
 
-1. It will delete branches with suffix as <branch_suffix> from local machine first. So if you have some changes in some branch, that are not on origin, either change the branch name or push that branch to origin.
+1. It will delete branches with suffix as `<branch_suffix>` from local machine first. So if you have some changes in some branch, that are not on origin, either change the branch name or push that branch to origin.
 2. Before running the command or script, make sure you don't have any uncommited changes on current branch.
 
 #### P.S. Suggestions for improvement are always welcomed. Feel free to leave comments or file PR with changes.
